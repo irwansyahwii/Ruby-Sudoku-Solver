@@ -273,7 +273,7 @@ end
 
 
 solver = SudoSolver.new
-solver.read_file("simple_sudoku.def")
+solver.read_file("easy_sudoku1.def")
 puts "#--- ORIGINAL ---#"
 solver.print_current_board
 puts "#--ORIGINAL END --#"
